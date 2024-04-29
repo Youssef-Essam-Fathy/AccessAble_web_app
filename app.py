@@ -1,3 +1,5 @@
+
+#!/usr/bin/python3
 #web page that has posts below each other
 import requests
 from flask import Flask, render_template
@@ -10,5 +12,7 @@ def home():
 @app.route('/contact', strict_slashes=False)
 def contact():
     return render_template('contact.html')
+
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
+
