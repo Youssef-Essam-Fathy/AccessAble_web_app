@@ -17,3 +17,7 @@
     font-weight: bold;
     font-size: xx-large;
 }
+
+.bg-info{
+    background-color: #f8f9fa !important;
+}
