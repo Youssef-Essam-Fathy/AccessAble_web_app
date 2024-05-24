@@ -1,0 +1,44 @@
+/* /* 
+color: #27C4B9;
+background-color: #506367; 
+
+
+
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #27C4B9;
+    transition: width 0.3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    box-shadow: 2 2 10px #506367;
+    opacity: 1;
+}
+.flask{
+    height: 50px;
+}
+.access {
+    color: #00d3b2; /* Color for "Access" */
+/*}
+.able {
+    color: #486567; /* Color for "Able" */
+/*}
+.navbar {
+    background-color: #7defdc !important;
+    opacity: 75%;
+}
+.nav-link.active {
+    color: #486567 !important;
+}
+#title{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.bg-info{
+    background-color: #f8f9fa !important;
+} */
